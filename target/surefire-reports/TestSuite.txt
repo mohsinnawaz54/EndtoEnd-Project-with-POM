@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 35.963 s <<< FAILURE! - in TestSuite
+initialize(Academy.HomePage)  Time elapsed: 5.793 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\rahul\E2EProject\src\main\java\resources\data.properties (No such file or directory)
+	at Academy.HomePage.initialize(HomePage.java:28)
+
+initialize(Academy.validateTitle)  Time elapsed: 5.032 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\rahul\E2EProject\src\main\java\resources\data.properties (No such file or directory)
+	at Academy.validateTitle.initialize(validateTitle.java:28)
+
+initialize(Academy.validateNavigationBar)  Time elapsed: 5.009 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\rahul\E2EProject\src\main\java\resources\data.properties (No such file or directory)
+	at Academy.validateNavigationBar.initialize(validateNavigationBar.java:32)
+
