@@ -43,6 +43,7 @@ public class baseClass {
 	@AfterTest
 	public void teardown() {
 		driver.close();
+		System.out.println("Added");
 
 	}
 
